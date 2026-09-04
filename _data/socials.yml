@@ -1,21 +1,9 @@
 - title: email
   icon: fas fa-envelope
   url: "mailto:ooriowotemitope@gmail.com"
-
 - title: github
   icon: fab fa-github
   url: https://github.com/Temmy-bioinformatics
-
-- title: linkedin
-  icon: fab fa-linkedin
-  url: https://www.linkedin.com/in/temitope-oriowo- title: email
-  icon: fas fa-envelope
-  url: "mailto:ooriowotemitope@gmail.com"
-
-- title: github
-  icon: fab fa-github
-  url: https://github.com/Temmy-bioinformatics
-
 - title: linkedin
   icon: fab fa-linkedin
   url: https://www.linkedin.com/in/temitope-oriowo
