@@ -4,7 +4,7 @@ This is my personal academic website, built with [Jekyll](https://jekyllrb.com/)
 
 🔗 **Live site:** https://Temmy-bioinformatics.github.io/Temitope-website/
 
-I'm a computational biologist and bioinformatician (PhD candidate at the Leibniz Institute for the Analysis of Biodiversity Change, Bonn), working on genome assembly, population genomics, and comparative genomics — mainly in Eurasian minnows (*Phoxinus*). This site hosts my CV, publications, and research projects.
+I'm a computational biologist and bioinformatician (PhD candidate at the Leibniz Institute for the Analysis of Biodiversity Change, Bonn), working on genome assembly, population genomics, and comparative genomics — mainly in Eurasian minnows (_Phoxinus_). This site hosts my CV, publications, and research projects.
 
 ## Built with
 
