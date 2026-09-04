@@ -1,81 +1,58 @@
 ---
 layout: page
-title: project 1
-description: with background image
-img: assets/img/12.jpg
+title: Haplotype-resolved genome assembly of the Eurasian minnow
+description: Chromosome-level reference genome for Phoxinus phoxinus using PacBio HiFi, Hi-C, and RNA-Seq
+img: assets/img/minnow_genome_cover.jpg
 importance: 1
 category: work
 related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+The Eurasian minnow (*Phoxinus phoxinus*) is a small freshwater fish widely distributed across European river systems, but until recently it lacked a high-quality genomic reference. This project produced a **chromosome-level, haplotype-resolved genome assembly** for the species, combining PacBio HiFi long reads, Hi-C chromatin conformation data, and RNA-Seq transcriptomic evidence to assemble and annotate both haplotypes of a diploid individual.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/minnow_sampling.jpg" title="Phoxinus phoxinus specimen" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/hifi_workflow.jpg" title="Assembly workflow" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/hic_contact_map.jpg" title="Hi-C contact map" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+    From left to right: a sampled Phoxinus phoxinus specimen, the long-read assembly workflow, and a Hi-C contact map used to scaffold contigs into chromosomes.
 </div>
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+### Why haplotype resolution matters
+
+Most reference genomes collapse the two parental haplotypes into a single consensus sequence, which can obscure real biological variation — especially in wild, outbred populations. By keeping both haplotypes separate throughout assembly, we were able to directly quantify **haplotype diversity** within a single individual, giving a more complete picture of heterozygosity than a collapsed assembly would allow {% cite oriowo2025minnow %}.
+
+### Pipeline and reproducibility
+
+The entire workflow — from raw read QC through assembly, scaffolding, and structural/functional annotation — was implemented as a **Snakemake pipeline**, making it scalable to additional samples and reproducible across compute environments. Steps included:
+
+- Long-read assembly from PacBio HiFi data
+- Hi-C-based scaffolding to chromosome-level contiguity
+- Haplotype phasing and separation
+- Structural annotation supported by RNA-Seq evidence
+- Quality assessment (BUSCO completeness, assembly contiguity metrics)
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/genome_synteny.jpg" title="Chromosome-level assembly" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/busco_score.jpg" title="BUSCO completeness" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    The final assembly, resolved to chromosome level, alongside completeness statistics from BUSCO.
 </div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+### Impact
 
-{% raw %}
+This reference genome now underpins downstream population-scale work on ~700 *Phoxinus* whole genomes, including variant calling, population structure, and introgression analyses, and has already been used as the mapping reference in follow-up studies on sex chromosome evolution in the genus.
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+Read the full paper: **Oriowo, T. O. *et al.* (2025). A chromosome-level, haplotype-resolved genome assembly and annotation for the Eurasian minnow (Leuciscidae: *Phoxinus phoxinus*) provide evidence of haplotype diversity. *GigaScience*, 14, giae116.** {% cite oriowo2025minnow %}
