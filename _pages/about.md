@@ -28,6 +28,6 @@ I'm a computational biologist and bioinformatician with three years of experienc
 
 My work spans genome assembly and annotation, population-scale variant discovery (across ~700 whole genomes), comparative and phylogenomic analysis, and structural variant analysis. I'm proficient in Bash, Python, and R, and comfortable working in HPC environments (SLURM, SGE).
 
-I hold an M.Sc. in Animal Breeding and Genetics (Erasmus Mundus Joint Degree, Wageningen University & Research and BOKU Vienna) and a B.Agric. in Animal Science (Bowen University, Nigeria). I'm expecting to complete my Ph.D. in Biology (Bioinformatics & Genomics) at the University of Bonn in November 2025.
+I hold an M.Sc. in Animal Breeding and Genetics (Erasmus Mundus Joint Degree, Wageningen University & Research and BOKU Vienna) and a B.Agric. in Animal Science (Bowen University, Nigeria). I'm expecting to complete my Ph.D. in Biology (Bioinformatics & Genomics) at the University of Bonn in November 2026.
 
 Outside of my thesis work, I love football, so my weekends are usually spent either playing or watching it.
