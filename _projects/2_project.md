@@ -8,7 +8,7 @@ category: work
 giscus_comments: true
 ---
 
-Beyond a single reference genome, understanding a species means understanding its populations. This project applied population-scale whole-genome sequencing to nearly **700 Eurasian minnow (*Phoxinus*) genomes**, sampled across multiple river drainages, to investigate genetic structure, historical introductions, and species boundaries within a taxonomically complex, cryptic species group.
+Beyond a single reference genome, understanding a species means understanding its populations. This project applied population-scale whole-genome sequencing to nearly **700 Eurasian minnow (_Phoxinus_) genomes**, sampled across multiple river drainages, to investigate genetic structure, historical introductions, and species boundaries within a taxonomically complex, cryptic species group.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -62,4 +62,4 @@ One of the more striking findings from this body of work was how much apparent p
 
 As with the genome assembly work, all population genomics analyses were implemented as **Snakemake pipelines**, run on SLURM/SGE-based HPC infrastructure, ensuring that variant calling and downstream analyses could scale to the full sample set and be rerun as new samples were added.
 
-Related publication: **Sternberg, N., Bodenheim, A., Oriowo, T. O., Podsiadlowski, L., & Stange, M. (2025). Human impacts on the distribution and genetic diversity of Eurasian minnows (Phoxinus: Leuciscidae) in the Rhenish Massif. *Knowledge & Management of Aquatic Ecosystems*, 426, 20.** {% cite sternberg2025minnows %}
+Related publication: **Sternberg, N., Bodenheim, A., Oriowo, T. O., Podsiadlowski, L., & Stange, M. (2025). Human impacts on the distribution and genetic diversity of Eurasian minnows (Phoxinus: Leuciscidae) in the Rhenish Massif. _Knowledge & Management of Aquatic Ecosystems_, 426, 20.** {% cite sternberg2025minnows %}

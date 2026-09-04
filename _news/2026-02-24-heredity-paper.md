@@ -1,12 +1,14 @@
-<!-- _news/2026-02-24-heredity-paper.md -->
----
+## <!-- _news/2026-02-24-heredity-paper.md -->
+
 layout: post
 title: New paper in Heredity, "Different sex determination systems in two closely related Eurasian minnow (Phoxinus) species"
 date: 2026-02-24 09:00:00-0000
 inline: false
 related_posts: false
+
 ---
-Our new paper is out in *Heredity*! We investigated the genetic basis of sex determination in two closely related Eurasian minnow species, *Phoxinus phoxinus* and *Phoxinus csikii*, using whole-genome sequencing.
+
+Our new paper is out in _Heredity_! We investigated the genetic basis of sex determination in two closely related Eurasian minnow species, _Phoxinus phoxinus_ and _Phoxinus csikii_, using whole-genome sequencing.
 
 #### What we found
 
@@ -21,7 +23,7 @@ Neither species showed visibly differentiated sex chromosomes at the coverage le
 
 #### Why it matters
 
-*Phoxinus* species are known to hybridize where their ranges overlap, including in a documented contact zone in the Middle Rhine. Two closely related species using opposite sex determination systems raises interesting questions about what happens genetically when they interbreed — mismatched sex chromosomes in hybrid offspring can create fertility problems or skewed sex ratios, potentially acting as a barrier that keeps species distinct even when they can still hybridize.
+_Phoxinus_ species are known to hybridize where their ranges overlap, including in a documented contact zone in the Middle Rhine. Two closely related species using opposite sex determination systems raises interesting questions about what happens genetically when they interbreed — mismatched sex chromosomes in hybrid offspring can create fertility problems or skewed sex ratios, potentially acting as a barrier that keeps species distinct even when they can still hybridize.
 
 > Even among very close relatives, sex chromosomes can be surprisingly flexible — evolving and switching system entirely within a short evolutionary timeframe.
 

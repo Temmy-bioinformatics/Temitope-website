@@ -8,7 +8,7 @@ category: work
 related_publications: true
 ---
 
-The Eurasian minnow (*Phoxinus phoxinus*) is a small freshwater fish widely distributed across European river systems, but until recently it lacked a high-quality genomic reference. This project produced a **chromosome-level, haplotype-resolved genome assembly** for the species, combining PacBio HiFi long reads, Hi-C chromatin conformation data, and RNA-Seq transcriptomic evidence to assemble and annotate both haplotypes of a diploid individual.
+The Eurasian minnow (_Phoxinus phoxinus_) is a small freshwater fish widely distributed across European river systems, but until recently it lacked a high-quality genomic reference. This project produced a **chromosome-level, haplotype-resolved genome assembly** for the species, combining PacBio HiFi long reads, Hi-C chromatin conformation data, and RNA-Seq transcriptomic evidence to assemble and annotate both haplotypes of a diploid individual.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -53,6 +53,6 @@ The entire workflow — from raw read QC through assembly, scaffolding, and stru
 
 ### Impact
 
-This reference genome now underpins downstream population-scale work on ~700 *Phoxinus* whole genomes, including variant calling, population structure, and introgression analyses, and has already been used as the mapping reference in follow-up studies on sex chromosome evolution in the genus.
+This reference genome now underpins downstream population-scale work on ~700 _Phoxinus_ whole genomes, including variant calling, population structure, and introgression analyses, and has already been used as the mapping reference in follow-up studies on sex chromosome evolution in the genus.
 
-Read the full paper: **Oriowo, T. O. *et al.* (2025). A chromosome-level, haplotype-resolved genome assembly and annotation for the Eurasian minnow (Leuciscidae: *Phoxinus phoxinus*) provide evidence of haplotype diversity. *GigaScience*, 14, giae116.** {% cite oriowo2025minnow %}
+Read the full paper: **Oriowo, T. O. _et al._ (2025). A chromosome-level, haplotype-resolved genome assembly and annotation for the Eurasian minnow (Leuciscidae: _Phoxinus phoxinus_) provide evidence of haplotype diversity. _GigaScience_, 14, giae116.** {% cite oriowo2025minnow %}
