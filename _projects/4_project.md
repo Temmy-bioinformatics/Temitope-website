@@ -25,7 +25,7 @@ This project combines population genomic, phylogenomic, and species-delimitation
 
 ### When genomes tell different stories
 
-Mitochondrial and nuclear genomes can retain different signals of evolutionary history, particularly when hybridization and introgression have occurred. By comparing these independent genomic histories, I am investigating whether discordant relationships reflect **incomplete lineage sorting, historical gene flow, or more recent hybridization**.
+Mitochondrial and nuclear genomes can retain different signals of evolutionary history, particularly when hybridization and introgression have occurred. By comparing these independent genomic histories, I am investigating whether discordant relationships reflect **incomplete lineage sorting, historical gene flow, or more recent hybridization**, while also telling the biogeographic history behind speciation in this genus.
 
 A particular focus is the complex of *P. phoxinus*, *P. csikii*, *P. morella*, and *P. septimaniae*, where geographic structure, mitochondrial ancestry, and nuclear genomic relationships do not always coincide.
 
