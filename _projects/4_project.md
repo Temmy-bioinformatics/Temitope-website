@@ -5,7 +5,6 @@ description: Integrating mitochondrial and nuclear genomic data to investigate h
 img: assets/img/Mitogenome_phylogram.png
 importance: 4
 category: work
-<<<<<<< HEAD
 related_publications: false
 ---
 
@@ -51,8 +50,3 @@ This allows discordant genomic signals to be investigated at multiple levels, fr
 **In progress — PhD research**
 
 This project forms part of my doctoral research at the University of Bonn and the Leibniz Institute for the Analysis of Biodiversity Change. Analyses and interpretation are currently ongoing, with results being integrated across mitochondrial, nuclear, and population genomic datasets.
-=======
----
-
----
->>>>>>> deb3d9e (update projects)
