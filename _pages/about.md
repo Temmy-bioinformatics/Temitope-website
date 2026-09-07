@@ -39,4 +39,4 @@ My background bridges animal breeding and genetics with modern computational gen
 
 I hold an M.Sc. in Animal Breeding and Genetics (Erasmus Mundus, Wageningen University & Research and BOKU Vienna) and a B.Agric. in Animal Science (Bowen University, Nigeria). I'll complete my PhD in Biology (Bioinformatics & Genomics) at the University of Bonn in November 2026.
 
-Outside of research, I love football — most weekends I'm either playing or watching it.
+Outside of research, I love football; most weekends I'm either playing in the German Amateur Kreisliga or watching it.
