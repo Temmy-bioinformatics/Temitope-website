@@ -8,7 +8,7 @@ category: work
 related_publications: true
 ---
 
-Sex determination systems can evolve rapidly, even among closely related species. In this project, I used whole-genome sequencing to investigate the genetic basis of sex determination in two closely related Eurasian minnows, _Phoxinus phoxinus_ and _Phoxinus csikii_.
+Sex determination systems can evolve rapidly in fishes, even among closely related species. In this project, I used whole-genome sequencing to investigate the genetic basis of sex determination in two closely related Eurasian minnows, _Phoxinus phoxinus_ and _Phoxinus csikii_.
 
 ### What I worked on
 
