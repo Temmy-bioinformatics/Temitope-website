@@ -9,7 +9,7 @@ giscus_comments: true
 related_publications: true
 ---
 
-Understanding genomic diversity requires looking beyond a single reference genome to populations across the landscape. In this project, I analysed nearly **700 whole genomes of Eurasian minnows (*Phoxinus*)** sampled across multiple European river drainages to investigate population structure, genetic diversity, introgression, and the evolutionary history of a taxonomically complex species group.
+Understanding genomic diversity requires looking beyond a single reference genome to populations across the landscape. In this project, I analysed nearly **700 whole genomes of Eurasian minnows (_Phoxinus_)** sampled across multiple European river drainages to investigate population structure, genetic diversity, introgression, and the evolutionary history of a taxonomically complex species group.
 
 ### What I worked on
 
@@ -24,9 +24,9 @@ I developed and applied a population-scale genomic workflow spanning variant dis
 
 ### Biological impact
 
-The genomic data revealed substantial geographic structure across *Phoxinus*, while also showing that some observed distributions and patterns of genetic diversity are strongly influenced by **anthropogenic introductions and stocking**. Combining population genomic evidence with historical context helped distinguish naturally structured populations from genetic patterns shaped by human activity {% cite sternberg2025minnows %}.
+The genomic data revealed substantial geographic structure across _Phoxinus_, while also showing that some observed distributions and patterns of genetic diversity are strongly influenced by **anthropogenic introductions and stocking**. Combining population genomic evidence with historical context helped distinguish naturally structured populations from genetic patterns shaped by human activity {% cite sternberg2025minnows %}.
 
-The analyses also provided a genomic framework for investigating **cryptic diversity and species boundaries** within *Phoxinus*, highlighting how genome-wide data can reveal evolutionary relationships that are difficult to resolve using morphology or traditional genetic markers alone.
+The analyses also provided a genomic framework for investigating **cryptic diversity and species boundaries** within _Phoxinus_, highlighting how genome-wide data can reveal evolutionary relationships that are difficult to resolve using morphology or traditional genetic markers alone.
 
 ### Computational toolkit
 
@@ -38,4 +38,4 @@ The analyses also provided a genomic framework for investigating **cryptic diver
 
 ### Publication
 
-Sternberg, N., Bodenheim, A., Oriowo, T. O., Podsiadlowski, L., & Stange, M. (2025). *Human impacts on the distribution and genetic diversity of Eurasian minnows (Phoxinus: Leuciscidae) in the Rhenish Massif.* **Knowledge & Management of Aquatic Ecosystems**, 426, 20. {% cite sternberg2025minnows %}
+Sternberg, N., Bodenheim, A., Oriowo, T. O., Podsiadlowski, L., & Stange, M. (2025). _Human impacts on the distribution and genetic diversity of Eurasian minnows (Phoxinus: Leuciscidae) in the Rhenish Massif._ **Knowledge & Management of Aquatic Ecosystems**, 426, 20. {% cite sternberg2025minnows %}

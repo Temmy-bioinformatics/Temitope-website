@@ -7,7 +7,7 @@ profile:
   align: right
   image: prof_pic.png
   image_circular: false # crops the image to make it circular
-  more_info: > 
+  more_info: >
     <p>Bonn, Germany</p>
     <p>[ooriowotemitope@gmail.com](mailto:ooriowotemitope@gmail.com)</p>
 selected_papers: true
@@ -21,6 +21,7 @@ latest_posts:
   scrollable: true
   limit: 3
 ---
+
 I'm a computational biologist and bioinformatician working at the intersection of genomics and evolutionary biology. I build reproducible pipelines that turn large-scale sequencing data into evolutionary insight — from haplotype-resolved genome assembly to population-scale variant discovery across hundreds of genomes.
 
 **Core focus areas**
@@ -33,7 +34,7 @@ I'm a computational biologist and bioinformatician working at the intersection o
 
 ⚙️ **Reproducible workflows** — Snakemake pipelines built for scalability on HPC (SLURM, SGE)
 
-I'm currently a Doctoral Researcher at the [Leibniz Institute for the Analysis of Biodiversity Change](https://leibniz-lib.de/) in Bonn, where I study genome evolution, population structure, and gene flow in Eurasian minnows (*Phoxinus*). My work spans genome assembly and annotation, population genomics, comparative and phylogenomic analysis, and structural variation — investigating processes like speciation, hybridisation, and introgression.
+I'm currently a Doctoral Researcher at the [Leibniz Institute for the Analysis of Biodiversity Change](https://leibniz-lib.de/) in Bonn, where I study genome evolution, population structure, and gene flow in Eurasian minnows (_Phoxinus_). My work spans genome assembly and annotation, population genomics, comparative and phylogenomic analysis, and structural variation — investigating processes like speciation, hybridisation, and introgression.
 
 My background bridges animal breeding and genetics with modern computational genomics, letting me approach genomic problems from both a biological and quantitative angle. I work primarily in Bash, Python, and R, with extensive experience on HPC systems (Snakemake, SLURM, SGE).
 

@@ -8,11 +8,11 @@ category: work
 related_publications: false
 ---
 
-Understanding evolutionary history can be difficult when different parts of the genome tell different stories. In this ongoing project, I am integrating mitochondrial and nuclear genomic data to investigate **hybridization, introgression, and cytonuclear discordance** across Eurasian minnows (*Phoxinus*).
+Understanding evolutionary history can be difficult when different parts of the genome tell different stories. In this ongoing project, I am integrating mitochondrial and nuclear genomic data to investigate **hybridization, introgression, and cytonuclear discordance** across Eurasian minnows (_Phoxinus_).
 
 ### What I am working on
 
-This project combines population genomic, phylogenomic, and species-delimitation approaches to disentangle evolutionary relationships among closely related *Phoxinus* lineages. Key analyses include:
+This project combines population genomic, phylogenomic, and species-delimitation approaches to disentangle evolutionary relationships among closely related _Phoxinus_ lineages. Key analyses include:
 
 - **Genome-wide population structure** to characterise ancestry and identify patterns of admixture
 - **Mitochondrial phylogenetics** to reconstruct maternal evolutionary relationships
@@ -27,7 +27,7 @@ This project combines population genomic, phylogenomic, and species-delimitation
 
 Mitochondrial and nuclear genomes can retain different signals of evolutionary history, particularly when hybridization and introgression have occurred. By comparing these independent genomic histories, I am investigating whether discordant relationships reflect **incomplete lineage sorting, historical gene flow, or more recent hybridization**, while also telling the biogeographic history behind speciation in this genus.
 
-A particular focus is the complex of *P. phoxinus*, *P. csikii*, *P. morella*, and *P. septimaniae*, where geographic structure, mitochondrial ancestry, and nuclear genomic relationships do not always coincide.
+A particular focus is the complex of _P. phoxinus_, _P. csikii_, _P. morella_, and _P. septimaniae_, where geographic structure, mitochondrial ancestry, and nuclear genomic relationships do not always coincide.
 
 The project also examines hybrid populations in the Rhine drainage, where contrasting mitochondrial and nuclear ancestry provides an opportunity to investigate the genomic consequences of secondary contact between divergent lineages.
 

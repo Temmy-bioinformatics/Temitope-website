@@ -8,7 +8,7 @@ category: work
 related_publications: true
 ---
 
-Sex determination systems can evolve rapidly, even among closely related species. In this project, I used whole-genome sequencing to investigate the genetic basis of sex determination in two closely related Eurasian minnows, *Phoxinus phoxinus* and *Phoxinus csikii*.
+Sex determination systems can evolve rapidly, even among closely related species. In this project, I used whole-genome sequencing to investigate the genetic basis of sex determination in two closely related Eurasian minnows, _Phoxinus phoxinus_ and _Phoxinus csikii_.
 
 ### What I worked on
 
@@ -22,7 +22,7 @@ I combined multiple genome-wide approaches to identify sex-associated genomic re
 
 ### Contrasting sex determination systems
 
-The analyses revealed different sex determination systems in the two closely related species. *P. phoxinus* showed male-specific heterozygosity in regions on chromosomes 3 and 12, consistent with a **male-heterogametic XX/XY system**. In contrast, *P. csikii* showed female-specific genotypic differences on chromosome 3, supporting a **female-heterogametic ZZ/ZW system**. Neither species showed strong chromosome-wide sex-biased coverage, consistent with relatively homomorphic sex chromosomes. {% cite oriowo2026phoxinussex %}
+The analyses revealed different sex determination systems in the two closely related species. _P. phoxinus_ showed male-specific heterozygosity in regions on chromosomes 3 and 12, consistent with a **male-heterogametic XX/XY system**. In contrast, _P. csikii_ showed female-specific genotypic differences on chromosome 3, supporting a **female-heterogametic ZZ/ZW system**. Neither species showed strong chromosome-wide sex-biased coverage, consistent with relatively homomorphic sex chromosomes. {% cite oriowo2026phoxinussex %}
 
 The presence of different sex determination systems in closely related species provides insight into the evolutionary flexibility of sex determination and raises the possibility that differences in sex-linked genomic regions may contribute to reproductive isolation.
 
@@ -36,4 +36,4 @@ The presence of different sex determination systems in closely related species p
 
 ### Publication
 
-Oriowo, T. O., Smith, S. H., Thorman, J., Sternberg, N., Böhne, A., & Stange, M. (2026). *Different sex determination systems in two closely related Eurasian minnow (Phoxinus) species.* **Heredity**, 135, 259–270. {% cite oriowo2026phoxinussex %}
+Oriowo, T. O., Smith, S. H., Thorman, J., Sternberg, N., Böhne, A., & Stange, M. (2026). _Different sex determination systems in two closely related Eurasian minnow (Phoxinus) species._ **Heredity**, 135, 259–270. {% cite oriowo2026phoxinussex %}
