@@ -3,7 +3,6 @@ layout: about
 title: about
 permalink: /
 subtitle: Computational Biologist & Bioinformatician
-
 profile:
   align: right
   image: prof_pic.png
@@ -11,7 +10,6 @@ profile:
   more_info: > 
     <p>Bonn, Germany</p>
     <p>[ooriowotemitope@gmail.com](mailto:ooriowotemitope@gmail.com)</p>
-
 selected_papers: true
 social: true
 announcements:
@@ -23,15 +21,22 @@ latest_posts:
   scrollable: true
   limit: 3
 ---
+I'm a computational biologist and bioinformatician working at the intersection of genomics and evolutionary biology. I build reproducible pipelines that turn large-scale sequencing data into evolutionary insight — from haplotype-resolved genome assembly to population-scale variant discovery across hundreds of genomes.
 
-I'm a computational biologist and bioinformatician working at the intersection of genomics, evolutionary biology, and computational biology. I use computational approaches to turn complex genomic data into biological insight, answering questions about how organisms evolve and diversify while uncovering new questions along the way.
+**Core focus areas**
 
-I'm currently a Doctoral Researcher at the [Leibniz Institute for the Analysis of Biodiversity Change](https://leibniz-lib.de/) in Bonn, where I develop and apply bioinformatics workflows to investigate genome evolution, population structure, genetic diversity, and gene flow. My work spans genome assembly and annotation, population-scale variant discovery, comparative and phylogenomic analysis, structural variation, and the development of reproducible computational workflows.
+🧬 **Genome assembly & annotation** — haplotype-resolved reference genomes from PacBio HiFi, Hi-C, and RNA-Seq
 
-I'm particularly interested in evolution and diversification, adaptation and genome evolution, and gene flow and evolutionary history. My research uses genomic data to explore processes such as speciation, population dynamics, introgression, hybridisation, and the evolution of genomic diversity.
+🧑‍🤝‍🧑 **Population genomics** — variant discovery and population structure across large genomic cohorts (~700 WGS)
 
-My background bridges general animal sciences, animal breeding and genetics, and modern computational genomics. This allows me to approach genomic problems from both a biological and quantitative perspective. I work primarily with Bash, Python, and R, and have extensive experience working with high-performance computing environments and workflow systems including Snakemake, SLURM, and SGE.
+🌳 **Comparative & phylogenomic analysis** — gene family evolution, introgression, and hybridisation
 
-I hold an M.Sc. in Animal Breeding and Genetics (Erasmus Mundus Joint Degree, Wageningen University & Research and BOKU Vienna) and a B.Agric. in Animal Science from Bowen University, Nigeria. I'm expecting to complete my PhD in Biology (Bioinformatics & Genomics) at the University of Bonn in November 2026.
+⚙️ **Reproducible workflows** — Snakemake pipelines built for scalability on HPC (SLURM, SGE)
 
-Outside of research, I love football, so my weekends are usually spent either playing or watching it.
+I'm currently a Doctoral Researcher at the [Leibniz Institute for the Analysis of Biodiversity Change](https://leibniz-lib.de/) in Bonn, where I study genome evolution, population structure, and gene flow in Eurasian minnows (*Phoxinus*). My work spans genome assembly and annotation, population genomics, comparative and phylogenomic analysis, and structural variation — investigating processes like speciation, hybridisation, and introgression.
+
+My background bridges animal breeding and genetics with modern computational genomics, letting me approach genomic problems from both a biological and quantitative angle. I work primarily in Bash, Python, and R, with extensive experience on HPC systems (Snakemake, SLURM, SGE).
+
+I hold an M.Sc. in Animal Breeding and Genetics (Erasmus Mundus, Wageningen University & Research and BOKU Vienna) and a B.Agric. in Animal Science (Bowen University, Nigeria). I'll complete my PhD in Biology (Bioinformatics & Genomics) at the University of Bonn in November 2026.
+
+Outside of research, I love football — most weekends I'm either playing or watching it.
