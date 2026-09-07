@@ -1,30 +1,40 @@
 ---
-
 layout: page
 title: Population genomics across ~700 Eurasian minnow genomes
-description: Variant discovery, population structure, and introgression analysis in Phoxinus
-img: assets/img/popgen_cover.jpg
+description: Population structure, genetic diversity, and introgression across European Phoxinus populations
+img: assets/img/popgen_cover.png
 importance: 2
 category: work
-giscus_comments: true
----------------------
+related_publications: true
+---
 
-Beyond a single reference genome, understanding a species means understanding its populations. This project applied population-scale whole-genome sequencing to nearly **700 Eurasian minnow (*Phoxinus*) genomes**, sampled across multiple river drainages, to investigate genetic structure, historical introductions, and species boundaries within a taxonomically complex, cryptic species group.
+Understanding genomic diversity requires looking beyond a single reference genome to populations across the landscape. In this project, I analysed nearly **700 whole genomes of Eurasian minnows (*Phoxinus*)** sampled across multiple European river drainages to investigate population structure, genetic diversity, introgression, and the evolutionary history of a taxonomically complex species group.
 
-### From reads to insights
+### What I worked on
 
-Working from raw sequencing reads to biological conclusions involved a full population genomics pipeline: quality control, alignment, joint variant calling, and filtering across hundreds of individuals, followed by downstream population genetic analyses including:
+I developed and applied a population-scale genomic workflow spanning variant discovery through to population genetic and phylogenomic analyses. Key components included:
 
-* **Population structure** — clustering individuals by genetic ancestry to reveal distinct lineages and admixture
-* **Introgression analysis** — detecting historical gene flow between genetically distinct clades, some of it linked to human-mediated stocking of fish for angling
-* **K-mer-based analysis** — reference-free approaches to complement alignment-based methods, especially useful where taxonomic boundaries are still debated
+- **Whole-genome variant discovery** across hundreds of individuals
+- **Population structure analysis** to identify genetically distinct lineages and patterns of admixture
+- **Genetic diversity and population differentiation** across river drainages
+- **Introgression and gene-flow analysis** to investigate historical exchange between divergent lineages
+- **K-mer-based analysis** to complement reference-based approaches and identify genomic patterns without relying entirely on a reference genome
+- Integration of genomic results with **geographic, ecological, and historical information** to distinguish natural population structure from patterns associated with human-mediated fish introductions
 
-### Untangling nature from human impact
+### Biological impact
 
-One of the more striking findings from this body of work was how much apparent population structure actually reflects **anthropogenic influence** rather than natural biogeography. Stocking practices, historical introductions, and cryptic species boundaries all leave detectable genomic signatures, and disentangling them required combining genomic evidence with historical and stakeholder-reported context {% cite sternberg2025minnows %}.
+The genomic data revealed substantial geographic structure across *Phoxinus*, while also showing that some observed distributions and patterns of genetic diversity are strongly influenced by **anthropogenic introductions and stocking**. Combining population genomic evidence with historical context helped distinguish naturally structured populations from genetic patterns shaped by human activity {% cite sternberg2025minnows %}.
 
-### Reproducible infrastructure
+The analyses also provided a genomic framework for investigating **cryptic diversity and species boundaries** within *Phoxinus*, highlighting how genome-wide data can reveal evolutionary relationships that are difficult to resolve using morphology or traditional genetic markers alone.
 
-As with the genome assembly work, all population genomics analyses were implemented as **Snakemake pipelines**, run on SLURM/SGE-based HPC infrastructure, ensuring that variant calling and downstream analyses could scale to the full sample set and be rerun as new samples were added.
+### Computational toolkit
 
-Related publication: **Sternberg, N., Bodenheim, A., Oriowo, T. O., Podsiadlowski, L., & Stange, M. (2025). Human impacts on the distribution and genetic diversity of Eurasian minnows (Phoxinus: Leuciscidae) in the Rhenish Massif. *Knowledge & Management of Aquatic Ecosystems*, 426, 20.** {% cite sternberg2025minnows %}
+**Variant discovery:** Whole-genome sequencing · alignment · joint variant calling · SNP filtering  
+**Population genomics:** Population structure · genetic diversity · differentiation · admixture  
+**Gene flow:** Introgression · phylogenomic analysis · demographic inference  
+**Reference-free genomics:** K-mer analysis  
+**Workflow & HPC:** Snakemake · Bash · R · Python · SLURM · SGE
+
+### Publication
+
+Sternberg, N., Bodenheim, A., Oriowo, T. O., Podsiadlowski, L., & Stange, M. (2025). *Human impacts on the distribution and genetic diversity of Eurasian minnows (Phoxinus: Leuciscidae) in the Rhenish Massif.* **Knowledge & Management of Aquatic Ecosystems**, 426, 20. {% cite sternberg2025minnows %}
