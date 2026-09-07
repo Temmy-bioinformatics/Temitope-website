@@ -1,27 +1,28 @@
 ---
-
 layout: about
 title: about
 permalink: /
 subtitle: Computational Biologist & Bioinformatician
 
 profile:
-align: right
-image: prof_pic.png
-image_circular: false # crops the image to make it circular
-more_info: > <p>Bonn, Germany</p> <p>[ooriowotemitope@gmail.com](mailto:ooriowotemitope@gmail.com)</p>
+  align: right
+  image: prof_pic.png
+  image_circular: false # crops the image to make it circular
+  more_info: > 
+    <p>Bonn, Germany</p>
+    <p>[ooriowotemitope@gmail.com](mailto:ooriowotemitope@gmail.com)</p>
 
 selected_papers: true
 social: true
 announcements:
-enabled: true
-scrollable: true
-limit: 5
+  enabled: true
+  scrollable: true
+  limit: 5
 latest_posts:
-enabled: true
-scrollable: true
-limit: 3
---------
+  enabled: true
+  scrollable: true
+  limit: 3
+---
 
 I'm a computational biologist and bioinformatician working at the intersection of genomics, evolutionary biology, and computational biology. I use computational approaches to turn complex genomic data into biological insight, answering questions about how organisms evolve and diversify while uncovering new questions along the way.
 
