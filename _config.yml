@@ -8,8 +8,7 @@ last_name: Oriowo
 contact_note: >
   Email is the best way to reach me — I usually reply within a day or two.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Personal website of Temitope Oriowo, computational biologist and bioinformatician
-  specializing in genome assembly, population genomics, and comparative genomics.
+  Computational Biologist & Bioinformatician working at the intersection of genomics, evolutionary biology and computational biology.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
