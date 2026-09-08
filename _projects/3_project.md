@@ -4,7 +4,7 @@ title: Sex Determination Systems in Eurasian Minnows
 description: Whole-genome analysis reveals contrasting sex determination systems in two closely related Phoxinus species
 img: assets/img/sex_determination_cover.png
 importance: 3
-category: work
+category: Work
 related_publications: true
 ---
 
