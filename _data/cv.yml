@@ -4,7 +4,7 @@ cv:
   email: ooriowotemitope@gmail.com
   location: Bonn, Germany
   image: ""
-  summary: Computational biologist and bioinformatician with 3 years of experience in genomic data analysis, next-generation sequencing (NGS), and bioinformatics pipeline development. Skilled in statistical analysis, population genomics, and comparative genomics. Expertise in genome assembly, genome annotation, structural variant analysis, and scripting for large-scale biological datasets (~700 WGS).
+  summary: Computational biologist and bioinformatician with 4+ years of experience in genomics, bioinformatics, and large-scale biological data analysis. Experienced in genome assembly, population genomics, comparative genomics, phylogenomics, and reproducible workflow development, including analysis of approximately 700 whole genomes. Proficient in R, Python, Bash, Linux, Snakemake, and HPC environments using SLURM and SGE.
 
   social_networks:
     - network: LinkedIn
@@ -26,11 +26,12 @@ cv:
         area: Bioinformatics & Genomics
         studyType: PhD in Biology
         start_date: 2022
-        end_date: Expected Nov 2025
+        end_date: Expected Nov 2026
         score: ""
         courses: ""
         highlights:
           - Doctoral research conducted at the Leibniz Institute for the Analysis of Biodiversity Change
+          - Research focused on genome evolution, population genomics, hybridisation, introgression, and species boundaries
 
       - institution: Wageningen University & Research / University of Natural Resources and Life Sciences (BOKU)
         location: Wageningen, Netherlands & Vienna, Austria
@@ -54,15 +55,15 @@ cv:
         location: Bonn, Germany
         start_date: 2022-05-01
         end_date: ""
-        summary: ""
         highlights:
-          - Developed and maintained Snakemake pipelines for genome assembly, annotation, and population genomics workflows, ensuring scalability and reproducibility
-          - Assembled and annotated a haplotype-resolved reference genome using PacBio HiFi, Hi-C, and RNA-Seq data
-          - Conducted population-scale variant discovery and analysis on ~700 genomes, including QC, alignment, variant calling, population structure, introgression, and k-mer-based analysis
-          - Performed comparative genomics and phylogenomic analysis using custom and public proteomes to identify gene family expansions and contractions
-          - Produced high-quality visualizations and reports to communicate results to internal teams and external stakeholders
-          - Proficient in Bash, Python, and R, and experienced with SLURM and SGE-based HPC environments
-          - Collaborated with cross-functional teams to troubleshoot bioinformatics workflows and debug scripts and pipelines
+          - Developed and maintained reproducible Snakemake workflows for genome assembly, annotation, population genomics, and comparative genomics
+          - Developed a chromosome-level, haplotype-resolved reference genome using PacBio HiFi, Hi-C, and RNA-Seq data
+          - Analysed approximately 700 whole genomes, performing read processing, variant discovery, quality control, population structure, admixture, introgression, and k-mer-based analyses
+          - Conducted comparative genomics and phylogenomics using genomic and proteomic datasets to investigate evolutionary relationships and gene family evolution
+          - Applied statistical and computational approaches to investigate population structure, genetic diversity, gene flow, hybridisation, and species boundaries
+          - Developed analysis scripts and visualisation workflows in R, Python, and Bash for large-scale genomic datasets
+          - Executed and scaled computational workflows on Linux-based HPC systems using SLURM and SGE
+          - Collaborated with researchers across disciplines to troubleshoot bioinformatics workflows, debug scripts, and communicate computational results
 
       - company: Hendrix Genetics
         position: Bioinformatics Intern
@@ -70,13 +71,26 @@ cv:
         start_date: 2019-12-01
         end_date: 2020-03-01
         highlights:
-          - Contributed to genetic and genomic analyses supporting turkey breeding programs, focusing on novel phenotyping approaches
-          - Assisted in developing data processing workflows and statistical models for genomic selection
-          - Supported the interpretation of high-throughput sequencing data in a quantitative genetics context
-          - Prepared scientific reports and presentations for internal teams and external stakeholders
+          - Contributed to genetic and genomic analyses supporting turkey breeding programmes, including novel phenotyping approaches
+          - Assisted in developing data-processing workflows and statistical models for genomic selection
+          - Supported the analysis and interpretation of high-throughput sequencing data in a quantitative genetics context
+          - Prepared scientific reports and presentations for internal teams and stakeholders
 
     Publications:
-      - title: A chromosome-level, haplotype-resolved genome assembly and annotation for the Eurasian minnow (Leuciscidae Phoxinus phoxinus) provide evidence of haplotype diversity
+      - title: Different sex determination systems in two closely related Eurasian minnow (Phoxinus) species
+        authors:
+          - Oriowo, T. O.
+          - Smith, S. H.
+          - Thorman, J.
+          - Sternberg, N.
+          - Böhne, A.
+          - Stange, M.
+        publisher: Heredity, 135, 259–270
+        releaseDate: 2026-01-01
+        url: https://doi.org/10.1038/s41437-026-00827-8
+        summary: ""
+
+      - title: A chromosome-level, haplotype-resolved genome assembly and annotation for the Eurasian minnow (Leuciscidae: Phoxinus phoxinus) provide evidence of haplotype diversity
         authors:
           - Oriowo, T. O.
           - Chrysostomakis, I.
@@ -90,52 +104,69 @@ cv:
         url: https://doi.org/10.1093/gigascience/giae116
         summary: ""
 
+      - title: Human impacts on the distribution and genetic diversity of Eurasian minnows (Phoxinus: Leuciscidae) in the Rhenish Massif
+        authors:
+          - Sternberg, N.
+          - Bodenheim, A.
+          - Oriowo, T. O.
+          - Podsiadlowski, L.
+          - Stange, M.
+        publisher: Knowledge & Management of Aquatic Ecosystems, 426, 20
+        releaseDate: 2025-01-01
+        url: https://doi.org/10.1051/kmae/2025015
+        summary: ""
+
       - title: Comparison of whole genome sequencing performance from fish swabs and fin clips
         authors:
           - Macphee, A.
           - Oriowo, T. O.
           - Sternberg, N.
           - Stange, M.
-        publisher: BMC Research Notes, 18(1), 15
+        publisher: BMC Research Notes, 18(1)
         releaseDate: 2025-01-01
-        url: https://doi.org/10.1186/s13104-024-06536-3
+        url: https://doi.org/10.1186/s13104-024-07075-1
         summary: ""
 
     Skills:
-      - name: Genome Assembly & Annotation
-        level: ""
-        icon: fa-solid fa-dna
-        keywords: "GATK, Bcftools, SAMtools, BWA, Bowtie"
-
-      - name: Population & Comparative Genomics
-        level: ""
-        icon: fa-solid fa-chart-line
-        keywords: "Variant calling, population structure analysis, introgression analysis, gene family expansion/contraction, phylogenetic analysis"
-
-      - name: Data Processing & Pipelines
+      - name: Programming & Data Analysis
         level: ""
         icon: fa-solid fa-code
-        keywords: "Snakemake, Bash, Python (BioPython, Pandas), R (ggplot2, dplyr, ComplexHeatmap)"
+        keywords: "R, Python, Bash, Pandas, BioPython, ggplot2, dplyr, ComplexHeatmap"
 
-      - name: High-Performance Computing
+      - name: Genomics & Bioinformatics
+        level: ""
+        icon: fa-solid fa-dna
+        keywords: "Genome assembly, genome annotation, variant analysis, population genomics, comparative genomics, phylogenomics, structural variation"
+
+      - name: Population & Evolutionary Genomics
+        level: ""
+        icon: fa-solid fa-chart-line
+        keywords: "Population structure, admixture, introgression, gene flow, species delimitation, demographic inference, phylogenetic analysis"
+
+      - name: Workflow Development
+        level: ""
+        icon: fa-solid fa-diagram-project
+        keywords: "Snakemake, reproducible workflows, pipeline development, workflow automation"
+
+      - name: HPC & Linux
         level: ""
         icon: fa-solid fa-server
-        keywords: "SLURM, SGE"
+        keywords: "Linux, SLURM, SGE, high-performance computing, job scheduling"
 
-      - name: Genome Visualization
+      - name: Genomic Tools
         level: ""
-        icon: fa-solid fa-eye
-        keywords: "IGV, UCSC Genome Browser, Circos"
+        icon: fa-solid fa-terminal
+        keywords: "GATK, Bcftools, SAMtools, BWA, Bowtie, IGV, UCSC Genome Browser, Circos"
+
+      - name: Version Control
+        level: ""
+        icon: fa-solid fa-code-branch
+        keywords: "Git, GitHub, GitLab"
 
       - name: Statistical Modelling
         level: ""
         icon: fa-solid fa-square-root-variable
-        keywords: "BLUP, GBLUP (genomic selection), clustering, regression"
-
-      - name: Version Control & Collaboration
-        level: ""
-        icon: fa-solid fa-code-branch
-        keywords: "GitHub, GitLab"
+        keywords: "BLUP, GBLUP, genomic selection, clustering, regression"
 
     Languages:
       - name: English
@@ -150,12 +181,47 @@ cv:
         issuer: ""
         icon: fa-solid fa-award
 
-    Interests: []
+    Awards:
+      - name: 2nd Best Presentation
+        date: 2025-01-01
+        issuer: European Meeting for PhD Students in Evolutionary Biology (EMPSEB)
+        icon: fa-solid fa-award
+
+      - name: Best Alternative Presentation
+        date: 2025-01-01
+        issuer: European Meeting for PhD Students in Evolutionary Biology (EMPSEB)
+        icon: fa-solid fa-award
+
+      - name: Erasmus Mundus Joint Master Degree Scholarship
+        date: 2019-01-01
+        issuer: European Commission
+        icon: fa-solid fa-award
+
+      - name: Commendation for Service During NYSC
+        date: 2018-01-01
+        issuer: Michael Okpara University of Agriculture, Umudike
+        icon: fa-solid fa-award
+
+      - name: Dean's Award for Best Graduating Student in Animal Sciences
+        date: 2017-01-01
+        issuer: Bowen University
+        icon: fa-solid fa-award
+
+      - name: Zard Consulting Award for Best Graduating Student in Animal Science
+        date: 2017-01-01
+        issuer: Zard Consulting
+        icon: fa-solid fa-award
+
+    Interests:
+      - name: Football
+        summary: German amateur football; playing and following football
+
+      - name: Cooking
+        summary: Cooking and exploring new cuisines
+
+      - name: Reading
+        summary: Science, history, African and contemporary literature
 
     Volunteer: []
-
-    Awards: []
-
     Projects: []
-
     References: []
