@@ -77,7 +77,7 @@ cv:
           - Prepared scientific reports and presentations for internal teams and stakeholders
 
     Publications:
-      - title: Different sex determination systems in two closely related Eurasian minnow (Phoxinus) species
+      - title: "Different sex determination systems in two closely related Eurasian minnow (Phoxinus) species"
         authors:
           - Oriowo, T. O.
           - Smith, S. H.
@@ -85,12 +85,12 @@ cv:
           - Sternberg, N.
           - Böhne, A.
           - Stange, M.
-        publisher: Heredity, 135, 259–270
+        publisher: "Heredity, 135, 259–270"
         releaseDate: 2026-01-01
-        url: https://doi.org/10.1038/s41437-026-00827-8
+        url: "https://doi.org/10.1038/s41437-026-00827-8"
         summary: ""
 
-      - title: A chromosome-level, haplotype-resolved genome assembly and annotation for the Eurasian minnow (Leuciscidae: Phoxinus phoxinus) provide evidence of haplotype diversity
+      - title: "A chromosome-level, haplotype-resolved genome assembly and annotation for the Eurasian minnow (Leuciscidae: Phoxinus phoxinus) provide evidence of haplotype diversity"
         authors:
           - Oriowo, T. O.
           - Chrysostomakis, I.
@@ -99,32 +99,32 @@ cv:
           - Brown, T.
           - Winkler, S.
           - Stange, M.
-        publisher: GigaScience, 14, giae116
+        publisher: "GigaScience, 14, giae116"
         releaseDate: 2025-01-01
-        url: https://doi.org/10.1093/gigascience/giae116
+        url: "https://doi.org/10.1093/gigascience/giae116"
         summary: ""
 
-      - title: Human impacts on the distribution and genetic diversity of Eurasian minnows (Phoxinus: Leuciscidae) in the Rhenish Massif
+      - title: "Human impacts on the distribution and genetic diversity of Eurasian minnows (Phoxinus: Leuciscidae) in the Rhenish Massif"
         authors:
           - Sternberg, N.
           - Bodenheim, A.
           - Oriowo, T. O.
           - Podsiadlowski, L.
           - Stange, M.
-        publisher: Knowledge & Management of Aquatic Ecosystems, 426, 20
+        publisher: "Knowledge & Management of Aquatic Ecosystems, 426, 20"
         releaseDate: 2025-01-01
-        url: https://doi.org/10.1051/kmae/2025015
+        url: "https://doi.org/10.1051/kmae/2025015"
         summary: ""
 
-      - title: Comparison of whole genome sequencing performance from fish swabs and fin clips
+      - title: "Comparison of whole genome sequencing performance from fish swabs and fin clips"
         authors:
           - Macphee, A.
           - Oriowo, T. O.
           - Sternberg, N.
           - Stange, M.
-        publisher: BMC Research Notes, 18(1)
+        publisher: "BMC Research Notes, 18(1)"
         releaseDate: 2025-01-01
-        url: https://doi.org/10.1186/s13104-024-07075-1
+        url: "https://doi.org/10.1186/s13104-024-07075-1"
         summary: ""
 
     Skills:
