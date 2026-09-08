@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Haplotype-resolved genome assembly
+title: Haplotype-Resolved Genome Assembly
 description: Chromosome-level reference genome for Phoxinus phoxinus using PacBio HiFi, Hi-C, and RNA-Seq
 img: assets/img/minnow_genome_cover.jpg
 importance: 1
@@ -8,34 +8,37 @@ category: work
 related_publications: true
 ---
 
-The Eurasian minnow (_Phoxinus phoxinus_) is a widespread freshwater fish that, until recently, lacked a high-quality genomic reference. I developed a reproducible workflow to generate a **chromosome-level, haplotype-resolved genome assembly** from a diploid individual, integrating PacBio HiFi long reads, Hi-C chromatin conformation data, and RNA-Seq evidence.
+The Eurasian minnow (*Phoxinus phoxinus*) lacked a high-quality genomic reference suitable for population-scale genomic research. I developed a **reproducible, chromosome-level, haplotype-resolved genome assembly workflow** from a diploid individual, integrating PacBio HiFi long reads, Hi-C chromatin conformation data, and RNA-Seq evidence.
 
 ### What I worked on
 
-The workflow covered the complete genome assembly and annotation process, from raw sequencing data through chromosome-level scaffolding and quality assessment. Key components included:
+I developed and implemented the computational workflow from raw sequencing data through chromosome-level assembly, annotation, and quality assessment. Key components included:
 
-- **PacBio HiFi** long-read genome assembly
+- **PacBio HiFi genome assembly** for high-contiguity long-read reconstruction
 - **Haplotype phasing and separation** to retain both homologous chromosomes
-- **Hi-C scaffolding** to achieve chromosome-level contiguity
+- **Hi-C scaffolding** to produce chromosome-level assemblies
 - **RNA-Seq-supported structural and functional annotation**
 - **Assembly quality assessment**, including BUSCO completeness and contiguity metrics
-- Reproducible workflow development using **Snakemake**
+- **Reproducible workflow development** using Snakemake
+- Execution and scaling of computational analyses on **HPC systems**
 
-The workflow was designed to be scalable and reproducible across high-performance computing environments, providing a framework that can be adapted for additional _Phoxinus_ samples.
+The workflow was designed to be reproducible and scalable, providing a framework that can be adapted for additional *Phoxinus* genomes and downstream comparative genomic analyses.
 
-### Biological impact
+### Key outcome
 
-Maintaining the two haplotypes separately allowed us to quantify genomic variation within a single individual and demonstrated substantial **haplotype diversity** that would be obscured by a conventional collapsed reference assembly {% cite oriowo2025minnow %}.
+Maintaining the two haplotypes separately allowed genomic variation within a single individual to be characterised directly, revealing substantial **haplotype diversity that would be obscured by a conventional collapsed reference assembly**.
 
-The resulting reference genome has since provided the foundation for downstream population-scale genomic analyses of approximately **700 _Phoxinus_ whole genomes**, including variant discovery, population structure, and introgression analyses. It has also been used as a reference in subsequent work investigating **sex chromosome evolution** in the genus.
+The resulting chromosome-level reference genome provided the foundation for subsequent population-scale analyses of approximately **700 *Phoxinus* whole genomes**, supporting variant discovery, population structure, admixture, and introgression analyses.
+
+The assembly has also been used as a genomic reference for subsequent work investigating **sex chromosome evolution** in *Phoxinus*.
 
 ### Computational toolkit
 
 **Genome assembly:** PacBio HiFi · Hi-C · haplotype phasing  
 **Annotation:** RNA-Seq · structural annotation · functional annotation  
-**Workflow:** Snakemake · Bash · HPC  
-**Quality control:** BUSCO · assembly contiguity metrics
+**Workflow & HPC:** Snakemake · Bash · Linux · HPC  
+**Quality assessment:** BUSCO · assembly contiguity metrics
 
 ### Publication
 
-Oriowo, T. O. _et al._ (2025). _A chromosome-level, haplotype-resolved genome assembly and annotation for the Eurasian minnow (Leuciscidae: Phoxinus phoxinus) provide evidence of haplotype diversity._ **GigaScience**, 14, giae116. {% cite oriowo2025minnow %}
+Oriowo, T. O. *et al.* (2025). *A chromosome-level, haplotype-resolved genome assembly and annotation for the Eurasian minnow (Leuciscidae: Phoxinus phoxinus) provide evidence of haplotype diversity.* **GigaScience**, 14, giae116.
