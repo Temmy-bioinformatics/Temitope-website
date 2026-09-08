@@ -4,7 +4,13 @@ cv:
   email: ooriowotemitope@gmail.com
   location: Bonn, North Rhine-Westphalia, Germany
   image: ""
-  summary: Computational biologist and bioinformatician with 5+ years of experience in genomics, bioinformatics, and large-scale biological data analysis. Experienced in genome assembly, population genomics, comparative genomics, phylogenomics, and reproducible workflow development, including analysis of approximately 700 whole genomes. Proficient in R, Python, Bash, Linux, Snakemake, and HPC environments using SLURM and SGE.
+  summary: >
+    Computational biologist and bioinformatician with 5+ years of experience
+    in genomics, bioinformatics, and large-scale biological data analysis.
+    Experienced in genome assembly, population genomics, comparative genomics,
+    phylogenomics, and reproducible workflow development, including analysis of
+    approximately 700 whole genomes. Proficient in R, Python, Bash, Linux,
+    Snakemake, and HPC environments using SLURM and SGE.
 
   social_networks:
     - network: LinkedIn
@@ -17,9 +23,9 @@ cv:
       - institution: Rhenish Friedrich Wilhelm University of Bonn
         location: Bonn, Germany
         area: Bioinformatics & Genomics
-        degree: PhD in Biology
+        studyType: PhD in Biology
         start_date: 2022
-        end_date: Expected Nov 2026
+        end_date: 2026
         highlights:
           - Doctoral research conducted at the Leibniz Institute for the Analysis of Biodiversity Change
           - Research focused on genome evolution, population genomics, hybridisation, introgression, and species boundaries
@@ -27,18 +33,16 @@ cv:
       - institution: Wageningen University & Research / University of Natural Resources and Life Sciences (BOKU)
         location: Wageningen, Netherlands & Vienna, Austria
         area: Animal Breeding and Genetics
-        degree: M.Sc. (Erasmus Mundus Joint Degree)
+        studyType: M.Sc. (Erasmus Mundus Joint Degree)
         start_date: 2019
         end_date: 2021
-        highlights: []
 
       - institution: Bowen University
         location: Iwo, Nigeria
         area: Animal Science
-        degree: B.Agric.
+        studyType: B.Agric.
         start_date: 2013
         end_date: 2017
-        highlights: []
 
     Experience:
       - company: Leibniz Institute for the Analysis of Biodiversity Change
@@ -115,66 +119,121 @@ cv:
         doi: "10.1186/s13104-024-07075-1"
 
     Skills:
-      - label: Programming & Data Analysis
-        details: "R, Python, Bash, Pandas, BioPython, ggplot2, dplyr, ComplexHeatmap"
+      - name: Programming & Data Analysis
+        keywords:
+          - R
+          - Python
+          - Bash
+          - Pandas
+          - BioPython
+          - ggplot2
+          - dplyr
+          - ComplexHeatmap
 
-      - label: Genomics & Bioinformatics
-        details: "Genome assembly, genome annotation, variant analysis, population genomics, comparative genomics, phylogenomics, structural variation"
+      - name: Genomics & Bioinformatics
+        keywords:
+          - Genome assembly
+          - Genome annotation
+          - Variant analysis
+          - Population genomics
+          - Comparative genomics
+          - Phylogenomics
+          - Structural variation
 
-      - label: Population & Evolutionary Genomics
-        details: "Population structure, admixture, introgression, gene flow, species delimitation, demographic inference, phylogenetic analysis"
+      - name: Population & Evolutionary Genomics
+        keywords:
+          - Population structure
+          - Admixture
+          - Introgression
+          - Gene flow
+          - Species delimitation
+          - Demographic inference
+          - Phylogenetic analysis
 
-      - label: Workflow Development
-        details: "Snakemake, reproducible workflows, pipeline development, workflow automation"
+      - name: Workflow Development
+        keywords:
+          - Snakemake
+          - Reproducible workflows
+          - Pipeline development
+          - Workflow automation
 
-      - label: HPC & Linux
-        details: "Linux, SLURM, SGE, high-performance computing, job scheduling"
+      - name: HPC & Linux
+        keywords:
+          - Linux
+          - SLURM
+          - SGE
+          - High-performance computing
+          - Job scheduling
 
-      - label: Genomic Tools
-        details: "GATK, Bcftools, SAMtools, BWA, Bowtie, IGV, UCSC Genome Browser, Circos"
+      - name: Genomic Tools
+        keywords:
+          - GATK
+          - Bcftools
+          - SAMtools
+          - BWA
+          - Bowtie
+          - IGV
+          - UCSC Genome Browser
+          - Circos
 
-      - label: Version Control
-        details: "Git, GitHub, GitLab"
+      - name: Version Control
+        keywords:
+          - Git
+          - GitHub
+          - GitLab
 
-      - label: Statistical Modelling
-        details: "BLUP, GBLUP, genomic selection, clustering, regression"
+      - name: Statistical Modelling
+        keywords:
+          - BLUP
+          - GBLUP
+          - Genomic selection
+          - Clustering
+          - Regression
 
     Languages:
-      - label: English
-        details: "C2 (Bilingual/Proficient)"
+      - name: English
+        summary: "C2 (Bilingual/Proficient)"
 
-      - label: German
-        details: "A2 (Elementary)"
+      - name: German
+        summary: "A2 (Elementary)"
 
     Certificates:
-      - label: Workshop in Genomics
-        details: "2023"
+      - name: Workshop in Genomics
+        date: 2023
 
     Awards:
-      - label: "2nd Best Presentation (2025)"
-        details: "European Meeting for PhD Students in Evolutionary Biology (EMPSEB)"
+      - title: "2nd Best Presentation (2025)"
+        summary: "European Meeting for PhD Students in Evolutionary Biology (EMPSEB)"
 
-      - label: "Best Alternative Presentation (2025)"
-        details: "European Meeting for PhD Students in Evolutionary Biology (EMPSEB)"
+      - title: "Best Alternative Presentation (2025)"
+        summary: "European Meeting for PhD Students in Evolutionary Biology (EMPSEB)"
 
-      - label: "Erasmus Mundus Joint Master Degree Scholarship (2019)"
-        details: "European Commission"
+      - title: "Erasmus Mundus Joint Master Degree Scholarship (2019)"
+        summary: "European Commission"
 
-      - label: "Commendation for Service During NYSC (2018)"
-        details: "Michael Okpara University of Agriculture, Umudike"
+      - title: "Commendation for Service During NYSC (2018)"
+        summary: "Michael Okpara University of Agriculture, Umudike"
 
-      - label: "Dean's Award for Best Graduating Student in Animal Sciences (2017)"
-        details: "Bowen University"
+      - title: "Dean's Award for Best Graduating Student in Animal Sciences (2017)"
+        summary: "Bowen University"
 
-      - label: "Zard Consulting Award for Best Graduating Student in Animal Science (2017)"
-        details: "Zard Consulting"
+      - title: "Zard Consulting Award for Best Graduating Student in Animal Science (2017)"
+        summary: "Zard Consulting"
 
     Interests:
-      - label: Football
-        details: "German amateur football; playing and following football"
+      - name: Football
+        keywords:
+          - German amateur football
+          - Playing and following football
 
-      - label: Cooking
-        details: "Cooking and exploring new cuisines"
+      - name: Cooking
+        keywords:
+          - Cooking
+          - Exploring new cuisines
 
-      - label: Reading
-        details: "Science, history, African and contemporary literature"
+      - name: Reading
+        keywords:
+          - Science
+          - History
+          - African literature
+          - Contemporary literature
