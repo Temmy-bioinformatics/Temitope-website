@@ -4,7 +4,7 @@ title: Haplotype-Resolved Genome Assembly
 description: Chromosome-level reference genome for Phoxinus phoxinus using PacBio HiFi, Hi-C, and RNA-Seq
 img: assets/img/minnow_genome_cover.jpg
 importance: 1
-category: work
+category: Work
 related_publications: true
 ---
 
