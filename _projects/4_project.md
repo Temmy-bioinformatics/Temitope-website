@@ -4,7 +4,7 @@ title: Untangling Hybridization and Evolutionary History in Phoxinus
 description: Integrating mitochondrial and nuclear genomic data to investigate hybridization, introgression, and species boundaries
 img: assets/img/Mitogenome_phylogram.png
 importance: 4
-category: work
+category: Work
 related_publications: false
 ---
 
