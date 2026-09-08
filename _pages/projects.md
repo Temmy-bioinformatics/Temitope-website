@@ -1,6 +1,6 @@
 ---
 layout: page
-title: projects
+title: Projects
 permalink: /projects/
 description: Selected computational biology, bioinformatics, and genomics projects.
 nav: true
