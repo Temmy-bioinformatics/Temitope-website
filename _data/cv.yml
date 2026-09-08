@@ -2,7 +2,7 @@ cv:
   name: Temitope O. Oriowo
   label: Computational Biologist & Bioinformatician
   email: ooriowotemitope@gmail.com
-  location: Bonn, Germany
+  location: Bonn, North Rhine-Westphalia, Germany
   image: ""
   summary: Computational biologist and bioinformatician with 5+ years of experience in genomics, bioinformatics, and large-scale biological data analysis. Experienced in genome assembly, population genomics, comparative genomics, phylogenomics, and reproducible workflow development, including analysis of approximately 700 whole genomes. Proficient in R, Python, Bash, Linux, Snakemake, and HPC environments using SLURM and SGE.
 
@@ -12,23 +12,14 @@ cv:
     - network: GitHub
       username: Temmy-bioinformatics
 
-  address:
-    street: ""
-    city: Bonn
-    region: North Rhine-Westphalia
-    postalCode: "53229"
-    countryCode: DE
-
   sections:
     Education:
       - institution: Rhenish Friedrich Wilhelm University of Bonn
         location: Bonn, Germany
         area: Bioinformatics & Genomics
-        studyType: PhD in Biology
+        degree: PhD in Biology
         start_date: 2022
         end_date: Expected Nov 2026
-        score: ""
-        courses: ""
         highlights:
           - Doctoral research conducted at the Leibniz Institute for the Analysis of Biodiversity Change
           - Research focused on genome evolution, population genomics, hybridisation, introgression, and species boundaries
@@ -36,7 +27,7 @@ cv:
       - institution: Wageningen University & Research / University of Natural Resources and Life Sciences (BOKU)
         location: Wageningen, Netherlands & Vienna, Austria
         area: Animal Breeding and Genetics
-        studyType: M.Sc. (Erasmus Mundus Joint Degree)
+        degree: M.Sc. (Erasmus Mundus Joint Degree)
         start_date: 2019
         end_date: 2021
         highlights: []
@@ -44,7 +35,7 @@ cv:
       - institution: Bowen University
         location: Iwo, Nigeria
         area: Animal Science
-        studyType: B.Agric.
+        degree: B.Agric.
         start_date: 2013
         end_date: 2017
         highlights: []
@@ -85,10 +76,9 @@ cv:
           - Sternberg, N.
           - Böhne, A.
           - Stange, M.
-        publisher: "Heredity, 135, 259–270"
-        releaseDate: 2026-01-01
-        url: "https://doi.org/10.1038/s41437-026-00827-8"
-        summary: ""
+        journal: "Heredity, 135, 259–270"
+        date: 2026-01-01
+        doi: "10.1038/s41437-026-00827-8"
 
       - title: "A chromosome-level, haplotype-resolved genome assembly and annotation for the Eurasian minnow (Leuciscidae: Phoxinus phoxinus) provide evidence of haplotype diversity"
         authors:
@@ -99,10 +89,9 @@ cv:
           - Brown, T.
           - Winkler, S.
           - Stange, M.
-        publisher: "GigaScience, 14, giae116"
-        releaseDate: 2025-01-01
-        url: "https://doi.org/10.1093/gigascience/giae116"
-        summary: ""
+        journal: "GigaScience, 14, giae116"
+        date: 2025-01-01
+        doi: "10.1093/gigascience/giae116"
 
       - title: "Human impacts on the distribution and genetic diversity of Eurasian minnows (Phoxinus: Leuciscidae) in the Rhenish Massif"
         authors:
@@ -111,10 +100,9 @@ cv:
           - Oriowo, T. O.
           - Podsiadlowski, L.
           - Stange, M.
-        publisher: "Knowledge & Management of Aquatic Ecosystems, 426, 20"
-        releaseDate: 2025-01-01
-        url: "https://doi.org/10.1051/kmae/2025015"
-        summary: ""
+        journal: "Knowledge & Management of Aquatic Ecosystems, 426, 20"
+        date: 2025-01-01
+        doi: "10.1051/kmae/2025015"
 
       - title: "Comparison of whole genome sequencing performance from fish swabs and fin clips"
         authors:
@@ -122,106 +110,71 @@ cv:
           - Oriowo, T. O.
           - Sternberg, N.
           - Stange, M.
-        publisher: "BMC Research Notes, 18(1)"
-        releaseDate: 2025-01-01
-        url: "https://doi.org/10.1186/s13104-024-07075-1"
-        summary: ""
+        journal: "BMC Research Notes, 18(1)"
+        date: 2025-01-01
+        doi: "10.1186/s13104-024-07075-1"
 
     Skills:
-      - name: Programming & Data Analysis
-        level: ""
-        icon: fa-solid fa-code
-        keywords: "R, Python, Bash, Pandas, BioPython, ggplot2, dplyr, ComplexHeatmap"
+      - label: Programming & Data Analysis
+        details: "R, Python, Bash, Pandas, BioPython, ggplot2, dplyr, ComplexHeatmap"
 
-      - name: Genomics & Bioinformatics
-        level: ""
-        icon: fa-solid fa-dna
-        keywords: "Genome assembly, genome annotation, variant analysis, population genomics, comparative genomics, phylogenomics, structural variation"
+      - label: Genomics & Bioinformatics
+        details: "Genome assembly, genome annotation, variant analysis, population genomics, comparative genomics, phylogenomics, structural variation"
 
-      - name: Population & Evolutionary Genomics
-        level: ""
-        icon: fa-solid fa-chart-line
-        keywords: "Population structure, admixture, introgression, gene flow, species delimitation, demographic inference, phylogenetic analysis"
+      - label: Population & Evolutionary Genomics
+        details: "Population structure, admixture, introgression, gene flow, species delimitation, demographic inference, phylogenetic analysis"
 
-      - name: Workflow Development
-        level: ""
-        icon: fa-solid fa-diagram-project
-        keywords: "Snakemake, reproducible workflows, pipeline development, workflow automation"
+      - label: Workflow Development
+        details: "Snakemake, reproducible workflows, pipeline development, workflow automation"
 
-      - name: HPC & Linux
-        level: ""
-        icon: fa-solid fa-server
-        keywords: "Linux, SLURM, SGE, high-performance computing, job scheduling"
+      - label: HPC & Linux
+        details: "Linux, SLURM, SGE, high-performance computing, job scheduling"
 
-      - name: Genomic Tools
-        level: ""
-        icon: fa-solid fa-terminal
-        keywords: "GATK, Bcftools, SAMtools, BWA, Bowtie, IGV, UCSC Genome Browser, Circos"
+      - label: Genomic Tools
+        details: "GATK, Bcftools, SAMtools, BWA, Bowtie, IGV, UCSC Genome Browser, Circos"
 
-      - name: Version Control
-        level: ""
-        icon: fa-solid fa-code-branch
-        keywords: "Git, GitHub, GitLab"
+      - label: Version Control
+        details: "Git, GitHub, GitLab"
 
-      - name: Statistical Modelling
-        level: ""
-        icon: fa-solid fa-square-root-variable
-        keywords: "BLUP, GBLUP, genomic selection, clustering, regression"
+      - label: Statistical Modelling
+        details: "BLUP, GBLUP, genomic selection, clustering, regression"
 
     Languages:
-      - name: English
-        summary: "C2 (Bilingual/Proficient)"
+      - label: English
+        details: "C2 (Bilingual/Proficient)"
 
-      - name: German
-        summary: "A2 (Elementary)"
+      - label: German
+        details: "A2 (Elementary)"
 
     Certificates:
-      - name: Workshop in Genomics
-        date: 2023-01-01
-        issuer: ""
-        icon: fa-solid fa-award
+      - label: Workshop in Genomics
+        details: "2023"
 
     Awards:
-      - name: 2nd Best Presentation
-        date: 2025-01-01
-        issuer: European Meeting for PhD Students in Evolutionary Biology (EMPSEB)
-        icon: fa-solid fa-award
+      - label: "2nd Best Presentation (2025)"
+        details: "European Meeting for PhD Students in Evolutionary Biology (EMPSEB)"
 
-      - name: Best Alternative Presentation
-        date: 2025-01-01
-        issuer: European Meeting for PhD Students in Evolutionary Biology (EMPSEB)
-        icon: fa-solid fa-award
+      - label: "Best Alternative Presentation (2025)"
+        details: "European Meeting for PhD Students in Evolutionary Biology (EMPSEB)"
 
-      - name: Erasmus Mundus Joint Master Degree Scholarship
-        date: 2019-01-01
-        issuer: European Commission
-        icon: fa-solid fa-award
+      - label: "Erasmus Mundus Joint Master Degree Scholarship (2019)"
+        details: "European Commission"
 
-      - name: Commendation for Service During NYSC
-        date: 2018-01-01
-        issuer: Michael Okpara University of Agriculture, Umudike
-        icon: fa-solid fa-award
+      - label: "Commendation for Service During NYSC (2018)"
+        details: "Michael Okpara University of Agriculture, Umudike"
 
-      - name: Dean's Award for Best Graduating Student in Animal Sciences
-        date: 2017-01-01
-        issuer: Bowen University
-        icon: fa-solid fa-award
+      - label: "Dean's Award for Best Graduating Student in Animal Sciences (2017)"
+        details: "Bowen University"
 
-      - name: Zard Consulting Award for Best Graduating Student in Animal Science
-        date: 2017-01-01
-        issuer: Zard Consulting
-        icon: fa-solid fa-award
+      - label: "Zard Consulting Award for Best Graduating Student in Animal Science (2017)"
+        details: "Zard Consulting"
 
     Interests:
-      - name: Football
-        summary: German amateur football; playing and following football
+      - label: Football
+        details: "German amateur football; playing and following football"
 
-      - name: Cooking
-        summary: Cooking and exploring new cuisines
+      - label: Cooking
+        details: "Cooking and exploring new cuisines"
 
-      - name: Reading
-        summary: Science, history, African and contemporary literature
-
-    Volunteer: []
-    Projects: []
-    References: []
+      - label: Reading
+        details: "Science, history, African and contemporary literature"
