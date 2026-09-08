@@ -22,9 +22,9 @@ latest_posts:
   limit: 3
 ---
 
-I'm a **computational biologist and bioinformatician** who develops reproducible computational workflows for analysing large-scale genomic data. My work combines genome assembly, population genomics, phylogenomics, and evolutionary genomics to turn complex sequencing data into biological insight.
+I'm a **computational biologist and bioinformatician** who develops reproducible workflows for analysing large-scale genomic data. My work spans **genome assembly, population genomics, phylogenomics, and evolutionary genomics**, with experience analysing datasets ranging from individual reference genomes to approximately **700 whole genomes**.
 
-I work primarily with **R, Python, Bash, Linux, and HPC-based workflows**, with experience developing scalable analyses using **Snakemake, SLURM, and SGE**.
+I work primarily with **R, Python, Bash, Linux, and HPC-based workflows**, developing scalable analyses using **Snakemake, SLURM, and SGE**.
 
 [**Download CV**](https://temmy-bioinformatics.github.io/Temitope-website/cv/) · [**GitHub**](https://github.com/Temmy-bioinformatics) · [**LinkedIn**](https://www.linkedin.com/in/temitope-oriowo/) · [**Email me**](mailto:ooriowotemitope@gmail.com)
 
@@ -44,9 +44,9 @@ I work primarily with **R, Python, Bash, Linux, and HPC-based workflows**, with 
 
 ## Featured Projects
 
-### 🧬 Population Genomics of *Phoxinus*
+### 🧬 Population Genomics Across ~700 *Phoxinus* Genomes
 
-**700+ whole genomes · SNP analysis · Population structure · Admixture**
+**700+ whole genomes · Variant analysis · Population structure · Admixture**
 
 Population-scale genomic analysis of Eurasian minnows to investigate population structure, genetic diversity, admixture, and gene flow across European river systems.
 
@@ -54,17 +54,17 @@ Population-scale genomic analysis of Eurasian minnows to investigate population 
 
 ### 🧬 Haplotype-Resolved Genome Assembly
 
-**PacBio HiFi · Hi-C · RNA-seq · Genome annotation**
+**PacBio HiFi · Hi-C · RNA-Seq · Genome annotation**
 
 Development of a chromosome-level, haplotype-resolved genome assembly for *Phoxinus phoxinus*, integrating long-read sequencing, Hi-C scaffolding, annotation, and genome-quality assessment.
 
 [**View project →**](https://temmy-bioinformatics.github.io/Temitope-website/projects/1_project/)
 
-### 🧬 Hybridisation & Cytonuclear Discordance
+### 🧬 Untangling Hybridisation and Evolutionary History in *Phoxinus*
 
 **Whole-genome ancestry · Mitochondrial phylogeny · Introgression**
 
-Investigating discordance between nuclear and mitochondrial ancestry to characterise hybridisation and gene flow across the *Phoxinus* hybrid zone.
+Investigating discordance between nuclear and mitochondrial ancestry to characterise hybridisation, introgression, and evolutionary relationships across the *Phoxinus* species complex.
 
 [**View project →**](https://temmy-bioinformatics.github.io/Temitope-website/projects/4_project/)
 
@@ -74,11 +74,11 @@ Investigating discordance between nuclear and mitochondrial ancestry to characte
 
 I'm currently a Doctoral Researcher at the [Leibniz Institute for the Analysis of Biodiversity Change](https://leibniz-lib.de/) in Bonn, where I study genome evolution, population structure, and gene flow in Eurasian minnows (*Phoxinus*).
 
-My research spans genome assembly and annotation, population genomics, comparative and phylogenomic analysis, and structural variation, with a particular focus on understanding speciation, hybridisation, and introgression.
+My research combines **genome assembly and annotation, population genomics, comparative and phylogenomic analysis, structural variation, and evolutionary genomics**, with a particular focus on speciation, hybridisation, and introgression.
 
 My background in animal breeding and genetics complements my computational genomics training, allowing me to approach genomic problems from both biological and quantitative perspectives.
 
-I hold an M.Sc. in Animal Breeding and Genetics from Wageningen University & Research and BOKU Vienna, and a B.Agric. in Animal Science from Bowen University, Nigeria. I will complete my PhD in Biology (Bioinformatics & Genomics) at the University of Bonn in November 2026.
+I hold an M.Sc. in Animal Breeding and Genetics from Wageningen University & Research and a B.Agric. in Animal Science from Bowen University, Nigeria. I will complete my PhD in Biology (Bioinformatics & Genomics) at the University of Bonn in November 2026.
 
 ## Outside Research
 
