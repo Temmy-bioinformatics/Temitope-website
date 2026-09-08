@@ -4,7 +4,7 @@ title: Machine Learning for Species Delimitation
 description: Exploring machine learning approaches for species delimitation using genomic data
 img: assets/img/ml_species_delimitation_cover.png
 importance: 1
-category: fun
+category: Fun
 related_publications: false
 ---
 
