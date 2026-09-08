@@ -5,7 +5,7 @@ permalink: /projects/
 description: Selected computational biology, bioinformatics, and genomics projects.
 nav: true
 nav_order: 3
-display_categories: [work, fun]
+display_categories: [Work, Fun]
 horizontal: false
 ---
 
