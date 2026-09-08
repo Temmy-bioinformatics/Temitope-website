@@ -4,7 +4,7 @@ title: Population Genomics Across ~700 Eurasian Minnow Genomes
 description: Population structure, genetic diversity, and introgression across European Phoxinus populations
 img: assets/img/popgen_cover.png
 importance: 2
-category: work
+category: Work
 giscus_comments: true
 related_publications: true
 ---
